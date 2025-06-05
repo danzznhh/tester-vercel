@@ -29,7 +29,7 @@ function convertCRC16(str) {
 }
 
 function generateTransactionId() {
-    return "DRAY" + crypto.randomBytes(5).toString('hex').toUpperCase()
+    return "DRAY" + " - " + crypto.randomBytes(5).toString('hex').toUpperCase()
 }
 
 function generateExpirationTime() {
